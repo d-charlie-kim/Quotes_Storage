@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>좋은 말 저장소</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="container">
+		<main class="diary-main">
+			<h1 class="heart"></h1>
+			<form>
+				<label class="a11y-hidden" for="diary-title">좋은 말 제목</label>
+				<input class="input-style" id="diary-title" type="text" placeholder="제목" required>
+
+				<label class="a11y-hidden" for="diary-content">좋은 말 내용</label>
+				<textarea class="diary-textarea" id="diary-content" placeholder="당신의 마음을 흔든 말은 무엇인가요?"></textarea>
+				<button class="black-btn" onclick="saveNote()">작성하기</button>
+			</form>
+		</main>
+		<section>
+			<h2 class="a11y-hidden">저장된 좋은 말 목록</h2>
+			<section id="display"></section>
+		</section>
+	</div>
+
+	<script src="./js/script.js"></script>
+</body>
+
+
+</html>
