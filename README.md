@@ -12,8 +12,8 @@
 
 ## 🔥 Projects!
 
-<div height="400px" align="middle">
-  <img width="200px;" src="./img/quotes-demo.png" alt="실행 결과"/>
+<div height="800px" align="middle">
+  <img width="1000px;" src="./img/quotes-demo.png" alt="실행 결과"/>
 </div>
 
 ## 🎯 기능 요구사항
